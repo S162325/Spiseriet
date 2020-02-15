@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<title>Meny</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+
+     <h1> Vår Meny</h1> 
+           
+       
+     
+    
+
+ 
+</header>
+
+<div class="navbar">
+  <a class = "menyval" href="index.html">Startsida</a>
+  <a class = "menyval" href="meny.html">Meny</a>
+  <a class = "menyval" href="om-oss.html">Om oss</a>
+  <a class = "menyval" href="kontakt.html">Kontakt</a>
+  <a class = "menyval" href="bokabord.html">Boka bord</a> 
+
+</div>
+
+<div class="row">
+  <div class="side">
+    
+    
+    <h3>Följ oss på våra sociala medier: </h3>
+      <div class="icons">
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+        <hr>
+        <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        <hr>
+        <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+        <hr>
+        <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat"></a>
+        <hr>
+
+    </div>
+
+
+  </div>
+ 
+<main>
+
+    <div style="text-align:center">
+        <h2>Meny</h2>
+        <p>Klicka på den kategori du vill se:</p>
+      </div>
+      
+     
+      <div class="row">
+        <div class="column" onclick="openTab('b1');">
+          Förrätter
+        </div>
+        <div class="column" onclick="openTab('b2');">
+          Varmrätter
+        </div>
+        <div class="column" onclick="openTab('b3');">
+            Desserter
+          </div>
+        <div class="column" onclick="openTab('b4');">
+          Drycker
+        </div>
+      </div>
+      
+      <!-- Full-width columns: (hidden by default) -->
+      <div id="b1" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        
+
+        <dl>
+            <dt>Råmarinerad zucchini med ketjap manis och jordnötter</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Klassisk pumpasoppa med pumpabröd</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Nötig morotssoppa med belugalinser</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Kantarelltoast med färskost och bacon</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Osbricka</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+        </dl>
+
+        
+       
+      </div>
+      
+      <div id="b2" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+       
+        <dl>
+            <dt>Sojastekt kyckling med sesammajonnäs</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Färsbiffar med ajvar och tomat- och mozzarellasallad</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Halstrad lax med grönärtsguacamole</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Fläskkarré med morotstzatziki</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Kräftpasta</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+        </dl>
+      </div>
+
+
+      <div id="b3" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        
+        <dl>
+            <dt>Jordgubbstiramisu</dt>
+            <dd class="listaimeny">- Tiramisu har du kanske ätit förut, men aldrig såhär! En somrig och svensk version av tiramisu där lager av mascarponekräm varvas med jordgubbar och fläder. En festlig och annorlunda dessert</dd>
+
+            <dt>Vaniljkokta plommon med myntagrädde</dt>
+            <dd class="listaimeny">- Plommonen får ligga i en lag med vin, lime och vanilj. Med en klick frisk grädde med mynta blir de förföriskt goda.</dd>
+
+            <dt>Creme brylé</dt>
+            <dd class="listaimeny">- En klassisk och smakfull dessert får du av egengjord, creme caramel/creme brylé. Efterrätten blir superb och smaklig med hel vaniljstång, grädde och smält socker.</dd>
+
+            <dt>Stekta bananer med råsocker och glass</dt>
+            <dd class="listaimeny">- Stekta bananer med råsocker och glass är en himmelsk dessert. Varma bananer och kall glass är en briljant kombination. Ingefära tillför det lilla extra.</dd>
+
+            <dt>Gino</dt>
+            <dd class="listaimeny">- Ugnsgratinerad frukt med vit choklad är en klassisk efterrätt som skapades på stockholmskrogarna i början på 90-talet. Denna enkla och läckra dessert innehåller endast bananer, kiwi, jordgubbar och vit choklad</dd>
+        
+
+        
+        </dl>
+      </div>
+      
+      <div id="b4" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        
+        <dl>
+            <dt class="dryckeskategori">Rödvin:</dt>
+          
+            <dt>Baron de Ley</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Barolo</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Montelciego</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+        
+
+            <dt class="dryckeskategori">Öl:</dt>
+            
+
+            <dt>Carlsberg hof</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Staropramen</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+             
+              <dt>Corona</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+       
+
+        <dt class="dryckeskategori">Alkoholfritt:</dt>
+        
+            <dt>Coca cola</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+             
+              <dt>Fanta</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+            <dt>Sprite</dt>
+            <dd class="listaimeny">- lorem ipsum</dd>
+
+         
+        </dl>
+      </div>
+   
+      </div>
+    </main>
+      <script>
+      function openTab(tabName) {
+        var i, x;
+        x = document.getElementsByClassName("containerTab");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+      </script>
+
+
+
+<footer>
+  <p>Adress:
+  <a class="linkkontakt" href="https://www.google.com/maps/place/H%C3%B6gskolan+i+Bor%C3%A5s/@57.724665,12.9378043,17z/data=!3m1!4b1!4m5!3m4!1s0x465aa0aee8721f03:0xe1fd8213c5fc0bc3!8m2!3d57.724665!4d12.939993" target="blank">
+    Allégatan 1, 503 32 Borås</a>
+  </p>
+  <p> Telefonnummer:
+    <a class="linkkontakt" href="tel:033-167892"> 033-167892</a>
+                      </p>
+</footer>
+
+</body>
